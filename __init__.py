@@ -167,7 +167,7 @@ Builder.load_string('''
                  (1-root.side_panel_opacity)*root._anim_progress
         canvas:
             Color:
-                rgba: (0,0,0,1)
+                rgba: (1,1,1,1)
             Rectangle:
                 pos: self.pos
                 size: self.size

@@ -214,6 +214,7 @@ Builder.load_string('''
 
 
 class NavigationDrawerException(Exception):
+
     '''Raised when add_widget or remove_widget called incorrectly on a
     NavigationDrawer.
 
@@ -221,6 +222,7 @@ class NavigationDrawerException(Exception):
 
 
 class NavigationDrawer(StencilView):
+
     '''Widget taking two children, a side panel and a main panel,
     displaying them in a way that replicates the popular Android
     functionality. See module documentation for more info.
